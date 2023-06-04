@@ -1,0 +1,6 @@
+f = open("reaganomics.txt", "r")
+f1 = open("Federal income tax and payroll tax levels.txt", "w")
+str = f.read()
+f1.write(str)
+f.close()
+f1.close()
